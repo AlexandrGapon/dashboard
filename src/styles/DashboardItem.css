@@ -1,0 +1,74 @@
+.table__row {
+    height: 70px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.table__row:hover {
+    box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.row__name {
+    border-left: 5px solid;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #474747;
+}
+
+.siteId1 {
+    border-color: #E14165;
+}
+
+.siteId2 {
+    border-color: #C2C2FF;
+}
+
+.siteId3 {
+    border-color: #8686FF;
+}
+
+.row__status {
+    width: 150px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.online {
+    color: #1BDA9D;
+}
+
+.paused {
+    color: #FF8346;
+}
+
+.stopped {
+    color: #FE4848;
+}
+
+.draft {
+    color: #5C5C5C;
+}
+
+.row__type {
+    width: 150px;
+    color: #5C5C5C;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.row__site {
+    width: 230px;
+}
+
+.row__site > a {
+    color: #5C5C5C;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.row__button {
+    width: 120px;
+}

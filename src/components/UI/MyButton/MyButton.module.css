@@ -1,0 +1,20 @@
+button {
+    width: 95px;
+    height: 30px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.results, .reset {
+    background-color: #2EE5AC;
+}
+
+.finalize {
+    background-color: #7D7D7D;
+}

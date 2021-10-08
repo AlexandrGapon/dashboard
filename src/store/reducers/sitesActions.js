@@ -1,0 +1,5 @@
+export const SITE_LOADING_SUCCESS = 'SITE_LOADING_SUCCESS'
+export const SITE_LOADING_FAILURE = 'SITE_LOADING_FAILURE'
+export const FETCH_SITE = 'FETCH_SITE'
+export const SET_SITES = 'SET_SITES'
+export const LOAD_SITE = 'LOAD_SITE'

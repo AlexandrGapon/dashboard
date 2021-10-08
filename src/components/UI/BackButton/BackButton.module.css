@@ -1,0 +1,22 @@
+.button {
+    position: relative;
+    cursor: pointer;
+    color: #222;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90px;
+    height: 25px;
+    margin-left: 28px;
+}
+
+.button::before {
+    position: absolute;
+    left: -28px;
+    top: 3px;
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 17px;
+    background: no-repeat center/100% url('../../../assets/images/back_icon.svg');
+}

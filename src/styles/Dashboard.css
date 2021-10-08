@@ -1,0 +1,62 @@
+.dashboard > table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard > table > thead > tr > th {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 30px 15px 5px;
+    color: #999;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+.dashboard > table > tbody > tr > td {
+    vertical-align: center;
+    padding: 15px;
+}
+
+.dashboard > table > thead span {
+    cursor: pointer;
+    user-select: none;
+}
+
+thead span.ascending::after {
+    content: '';
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 1px;
+    width: 7px;
+    height: 4px;
+    background: no-repeat center/100% url('../assets/images/vector_icon.svg');
+    transform: rotate(180deg)
+}
+  
+thead span.descending::after {
+    content: '';
+    display: inline-block;
+    margin-left: 8px;
+    width: 7px;
+    height: 4px;
+    margin-bottom: 1px;
+    background: no-repeat center/100% url('../assets/images/vector_icon.svg');
+}
+
+.emptyResult {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emptyResult button {
+    margin-top: 40px;
+}
+
+.emptyResult h2 {
+    margin-top: 180px;
+}

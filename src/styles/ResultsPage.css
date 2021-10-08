@@ -1,0 +1,27 @@
+.resultsPage {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resultsPage h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.resultsPage span {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+}
