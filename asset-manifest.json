@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.03e69765.chunk.css",
+    "main.js": "/dashboard/static/js/main.ff6ddeb1.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.ff6ddeb1.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.5eb6c7cd.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.5eb6c7cd.js.map",
+    "static/js/2.84823b18.chunk.js": "/dashboard/static/js/2.84823b18.chunk.js",
+    "static/js/2.84823b18.chunk.js.map": "/dashboard/static/js/2.84823b18.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/main.03e69765.chunk.css.map": "/dashboard/static/css/main.03e69765.chunk.css.map",
+    "static/js/2.84823b18.chunk.js.LICENSE.txt": "/dashboard/static/js/2.84823b18.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/dashboard/static/media/Roboto-Regular.31012f9b.woff",
+    "static/media/BackButton.module.css": "/dashboard/static/media/back_icon.b52c3203.svg",
+    "static/media/SearchString.css": "/dashboard/static/media/search_icon.5a18a1eb.svg",
+    "static/media/Dashboard.css": "/dashboard/static/media/vector_icon.250e36d9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eb6c7cd.js",
+    "static/js/2.84823b18.chunk.js",
+    "static/css/main.03e69765.chunk.css",
+    "static/js/main.ff6ddeb1.chunk.js"
+  ]
+}
